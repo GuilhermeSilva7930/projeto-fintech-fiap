@@ -2,8 +2,13 @@
     background-color: orange;
 }
 
-.card-width {
+.card-item {
     max-width: 300px;
+    min-height: 370px;
+}
+
+.card-img-top {
+    height: 214px;
 }
 
 .not-found {
@@ -12,4 +17,8 @@
     justify-content: center;
     align-items: center;
     user-select: none;
+}
+
+a {
+    text-decoration: none;
 }
